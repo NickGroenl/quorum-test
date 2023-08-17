@@ -1,0 +1,29 @@
+.card-votation{
+    background-color: rgb(27, 26, 26);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+.card-votation:hover{
+    box-shadow: 0.2rem 0.2rem var(--primary-color);
+}
+.card-votation-container h1{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.card-votation-container p{
+    font-size: 1rem;
+    color: rgb(126, 125, 125);
+}
+
+.card-votation button{
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}

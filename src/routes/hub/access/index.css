@@ -1,0 +1,11 @@
+.login .gradientBox{
+    height: 100%;
+    background: rgb(176,63,251);
+background: radial-gradient(circle, #3d2858 0%, #211236 100%);
+}
+.login{
+    border-radius: 3px;
+    background-color: white;
+    margin: 2rem;
+    box-shadow: 3px 1px 3px 1px rgba(0, 0, 0, 0.322);
+}

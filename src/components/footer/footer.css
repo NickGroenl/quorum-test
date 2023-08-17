@@ -1,0 +1,40 @@
+.footer{
+    background-color: #211236;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+.footer-items{
+    padding: 1rem;
+}
+
+.footer-items .section{
+    padding: 1rem;
+    display: inline-block;
+}
+
+.footer-items .section h1{
+    margin-bottom: 1.2rem;
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 900 !important;
+    letter-spacing: 0.3rem;
+
+}
+
+.footer-items .section p{
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    color:rgb(207, 206, 206)
+}
+.footer-items .section p:hover{
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 850px) {
+    .footer-items .section{
+        display: block;
+    }
+}

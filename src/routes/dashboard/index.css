@@ -1,0 +1,82 @@
+.presentation {
+  background-color: #211236;
+}
+.imagesinvert img{
+  filter: blur(3px);
+  opacity: 0.3;
+}
+
+
+.technologie{
+  text-align: center !important;
+  align-items: center !important;
+  margin: 2rem;
+}
+.technologie span{
+  font-size: 4rem;
+  color: rgb(173, 63, 158);
+}
+.technologie h2{
+  color: white;
+  font-size: 2rem;
+}
+
+.technologie p{
+  font-size: 1rem;
+  color:rgb(226, 222, 222);
+}
+
+
+.input{
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  color: black;
+  border: 1px solid rgb(20, 20, 20);
+  width: 100%;
+}
+.input:hover, .input:focus{
+  border: 1px solid #F76301 !important;
+  color: #F76301;
+}
+
+.social-icon{
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.social-icon:hover{
+  filter:invert(2)
+}
+
+.social-icon.lk{
+  background-color: #0e76a8;
+  color: white;
+}
+.social-icon.fb{
+  background-color: #3b5998;
+  color: white;
+}
+.social-icon.ig{
+  background-color: #C13584;
+  color: white;
+}
+.social-icon.ds{
+  background-color: #7289da;
+  color: white;
+}
+@media only screen and (max-width: 650px) {
+  .modified{
+    display: none !important;
+  }
+  .containerpurple{
+    padding: .5rem !important;
+    text-align: left;
+  }
+  .presentation video{
+    width: 60%;
+  }
+  .fzResponsive{
+    font-size: 3rem !important;
+  }
+}
